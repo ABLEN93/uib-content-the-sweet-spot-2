@@ -3,7 +3,7 @@ h1 {
   color: #dad8d8;
 }
 
-h2 {
+h2  {
   color: #f112f1;
   background-color: #dad8d8;
 }
@@ -53,4 +53,53 @@ h3 + ul li {
 
 #main a:visited {
   color: #ec10bd;
+               }
+
+.img1 {
+    margin-top: 0px;
+    height: 200px;
+    width: 1400px;
+    object-fit: cover;
+      }
+.img2 {
+    height: 200px;
+    width: 1400px;
+    object-fit: cover;
+      }
+
+.candy {
+    margin-left: 0px;
+    margin-right: 200px;  
+    float: left;
+    border-radius: 1000px;
+    height: 200px;
+    width: 200px;
+    border: inset;
+       }
+
+
+.jelly {
+  margin-right: 200px;
+  height: 200px;
+  width: 200px;
+   float: none;
+  border-radius: 1000px;
+  border: double;
+
+}     
+
+.lollipop {
+
+  margin-right: 200px;
+  height: 200px;
+  width: 200px;
+  float: unset;
+  border-radius: 1000px;
+  border: dashed;
+}
+
+
+h5 {
+  font-weight: 600;
+  font-size: 24px;
 }
