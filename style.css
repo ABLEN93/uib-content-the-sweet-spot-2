@@ -4,6 +4,7 @@ h1 {
 }
 
 h2  {
+  font-size: 44px;
   color: #f112f1;
   background-color: #dad8d8;
 }
@@ -31,6 +32,12 @@ h4 + ul {
 
 h4 + ul:hover {
   background-color: #ebf64d;
+  
+}
+
+h4 {
+  font-size: 35px;
+  color: crimson;
 }
 
 #contact a:visited {
@@ -48,7 +55,16 @@ ul:hover {
 }
 
 h3 + ul li {
-  list-style: circle;
+  list-style: none;
+  font-size: 22px;
+  margin-left: 400px;
+}
+
+.H3 {
+  font-size: 50px;
+  font-style: italic;
+  color: darkblue;
+  margin-left: 400px;
 }
 
 #main a:visited {
@@ -68,8 +84,9 @@ h3 + ul li {
       }
 
 .candy {
-    margin-left: 0px;
+    margin-left: 40px;
     margin-right: 200px;  
+    margin-top: auto;
     float: left;
     border-radius: 1000px;
     height: 200px;
@@ -79,6 +96,7 @@ h3 + ul li {
 
 
 .jelly {
+  margin-top: auto;
   margin-right: 200px;
   height: 200px;
   width: 200px;
@@ -89,8 +107,8 @@ h3 + ul li {
 }     
 
 .lollipop {
-
-  margin-right: 200px;
+  margin-top: auto;
+  margin-right: 100px;
   height: 200px;
   width: 200px;
   float: unset;
@@ -101,5 +119,9 @@ h3 + ul li {
 
 h5 {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 100px;
+  color: aqua;
+  margin-left: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
